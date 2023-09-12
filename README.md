@@ -8,6 +8,8 @@ minikube start --driver=docker
 sudo usermod -aG docker $USER
 newgrp docker
 sudo snap install kubectl
+minikube status
+kubectl version
 
 ```
 
